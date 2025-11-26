@@ -1,0 +1,162 @@
+﻿body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #ecebeb;
+  color: #333;
+ 
+}
+
+
+h1 {
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+h2 {
+  color: #2c3e50;
+
+  text-align: center;
+}
+
+h3 {
+  color: #181520;
+  text-align: center;
+  font-size: 3vh;
+}
+
+
+
+.energy-mix-container {
+  display:flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.energy-card {
+  background-color: #e2d1f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+  transition: transform 0.2s, box-shadow 0.2s;
+ 
+}
+
+.energy-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.energy-card p {
+  font-size: px;
+}
+
+
+.optimal-window-form {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.optimal-window-form form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.optimal-window-form input[type="number"] {
+  width: 60px;
+  padding: 5px 10px;
+
+  border-radius: 6px;
+}
+
+main {
+  margin: 1vh;
+}
+
+.optimal-window-form button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4d3369;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.optimal-window-form button:hover {
+  background-color: #1f7fc1;
+}
+
+
+.optimal-window-result {
+  margin-top: 20px;
+  background-color: #f0f6fa;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border-left: 4px solid #704b77;
+  text-align: center;
+}
+
+
+hr {
+  border: none;
+  
+}
+ nav {
+  max-width: 100%;
+  background-color: #866496;
+  min-height: 10vh;
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  border-radius: 1vh 1vh 0 0;
+
+ }
+
+.Flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  height:88vh;
+  gap: 2vh;
+
+}
+
+.energy-mix-container-whole {
+  width: 100%;
+}
+
+
+.Left {
+  flex: 6; 
+  background-color: #fff9f9;
+  height: 100%;
+  border: 1px rgb(201, 201, 201) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-height: fit-content;
+
+}
+
+
+.Right {
+  flex: 4; 
+  background-color: #fff9f9;
+  height: 100%;
+
+  border: 1px rgb(201, 201, 201) solid;
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  width: auto;
+  font-size: 2vh;
+  min-height: fit-content;
+  
+}
