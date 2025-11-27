@@ -1,6 +1,6 @@
 import type { DailyMix, OptimalWindow } from "../components/types";
 
-const BASE_URL = "http://localhost:5108/energy";
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 export async function fetchEnergyMix(): Promise<DailyMix[]> {
   const res = await fetch(`${BASE_URL}/mix`);
