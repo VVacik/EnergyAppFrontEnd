@@ -1,5 +1,3 @@
-import React from "react"
-
 export const NavBar = () => {
   return (
     <nav><svg xmlns="http://www.w3.org/2000/svg" width="5vh" height="5vh" fill="white" className="bi bi-lightning-charge" viewBox="0 0 16 16">
