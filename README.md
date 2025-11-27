@@ -28,7 +28,7 @@ The backend URL is configured via environment variables.
 VITE_API_URL=http://localhost:5108/energy
 
 
-##Project Structure
+## Project Structure
 src/
  ├── components/   # UI components
  ├── api/          # Backend communication
@@ -38,5 +38,5 @@ src/
 
 
 
- ##Author
+ ## Author
 Project created for recruitment task purposes.
